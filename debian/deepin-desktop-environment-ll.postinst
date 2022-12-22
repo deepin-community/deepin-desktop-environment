@@ -1,0 +1,53 @@
+#!/bin/bash
+set -x
+
+LL_pkgList=/etc/packages.linglong
+LINGLONG_ROOT="/var/lib/linglong"
+
+install_pkg(){
+	if [ ! -f $1 ]
+	then
+		echo "Error: $1 Not Found."
+		exit 0       
+	fi
+
+    for pkg in `cat $1 | grep -v "^#"`
+    do
+        ll-cli --nodbus install ${pkg}
+    done
+}
+
+check_os_version(){
+	if [ -f /etc/os-release ]
+	then
+		VERSION=$(sed -ne '/^VERSION_ID=.*$/P' /etc/os-release | awk -F = '{print $2}' | sed -e 's/"//g' | awk -F . '{print $1}')
+        	if [ ${VERSION} -eq '20' ]
+        	then
+                	LINGLONG_ROOT="/data/linglong"
+        	elif [ ${VERSION} -eq '23' ]
+        	then
+                	LINGLONG_ROOT="/persistent/linglong"
+        	fi
+	fi
+}
+
+change_own_ll(){
+	chown deepin-linglong:users -R ${LINGLONG_ROOT}
+}
+
+update_ll_repo-dev(){
+	sed -i '/.*"appDbUrl":.*/c\    "appDbUrl": "https://repo-dev.linglong.space"' /persistent/linglong/config.json
+	sed -i "/.*url=.*/c\url=https://repo-dev.linglong.space/repos/repo" /persistent/linglong/repo/config
+}
+update_ll_repo(){
+	sed -i '/.*"appDbUrl":.*/c\    "appDbUrl": "https://linglong-dev.uniontech.com"' /persistent/linglong/config.json
+	sed -i '/.*url=.*/c\url=https://linglong-dev.uniontech.com/repos/repo' /persistent/linglong/repo/config
+}
+
+if [ "$1" = "configure" ] && [ "$2" = "" ]; then
+	update_ll_repo-dev
+	install_pkg ${LL_pkgList}
+	#update_ll_repo
+	check_os_version
+	change_own_ll
+fi
