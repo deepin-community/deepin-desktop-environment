@@ -36,18 +36,53 @@ change_own_ll(){
 }
 
 update_ll_repo-dev(){
-	sed -i '/.*"appDbUrl":.*/c\    "appDbUrl": "https://repo-dev.linglong.space"' /persistent/linglong/config.json
-	sed -i "/.*url=.*/c\url=https://repo-dev.linglong.space/repos/repo" /persistent/linglong/repo/config
+cat > /persistent/linglong/config.json<< EOF
+{
+    "appDbUrl": "http://10.0.36.228:9002",
+    "repoName": "release-snipe"
 }
+EOF
+
+cat > /persistent/linglong/repo/config<< EOF
+[core]
+repo_version=1
+mode=bare-user-only
+min-free-space-size=600MB
+
+[remote "release-snipe"]
+url=http://10.0.36.228:9002/repos/release-snipe/
+gpg-verify=false
+EOF
+}
+
 update_ll_repo(){
-	sed -i '/.*"appDbUrl":.*/c\    "appDbUrl": "https://linglong-dev.uniontech.com"' /persistent/linglong/config.json
-	sed -i '/.*url=.*/c\url=https://linglong-dev.uniontech.com/repos/repo' /persistent/linglong/repo/config
+cat > /persistent/linglong/config.json<< EOF
+{
+    "appDbUrl": "https://store-llrepo.deepin.com"
+}
+EOF
+cat > /persistent/linglong/repo/config<< EOF
+[core]
+repo_version=1
+mode=bare-user-only
+min-free-space-size=600MB
+
+[remote "repo"]
+url=https://store-llrepo.deepin.com/repos/repo
+gpg-verify=false
+EOF
 }
 
 if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	update_ll_repo-dev
 	install_pkg ${LL_pkgList}
-	#update_ll_repo
+	update_ll_repo
 	check_os_version
 	change_own_ll
+
 fi
+
+
+
+
+
