@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.03.08) unstable; urgency=medium
+  
+  * remove libreoffice
+
+ -- LiChengGang <lichenggang@uniontech.com>  Wed, 08 Mar 2023 14:34:01 +0800
+
 deepin-desktop-environment (2023.02.16-deepin) unstable; urgency=medium
 
   * add libblockdev-crypto2  
