@@ -211,7 +211,7 @@ Depends: ${misc:Depends},
   xserver-xorg-input-all,
   rsync,
   librsvg2-bin,
-  rtw89-dkms
+  realtek-wifi-dkms
 Recommends:
   aptitude,
   hostapd,
