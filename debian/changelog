@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.03.31) unstable; urgency=medium
+
+  * remove rsyslog 
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 31 Mar 2023 10:01:07 +0800
+
 deepin-desktop-environment (2023.03.08) unstable; urgency=medium
   
   * remove libreoffice
