@@ -77,7 +77,8 @@ Depends: ${misc:Depends},
   zlib1g,
   libzip4,
   unrar,
-  pciutils
+  pciutils,
+  libopengl0
 Recommends:
   libffi6,
   libsepol1,
