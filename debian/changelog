@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.04.20) unstable; urgency=medium
+
+  * add dde-api-proxy for deepin v23 beta release
+
+ -- Wang Zichong <wangzichong@deepin.org>  Thu, 20 Apr 2023 13:16:00 +0800
+
 deepin-desktop-environment (2023.03.31) unstable; urgency=medium
 
   * remove rsyslog 
