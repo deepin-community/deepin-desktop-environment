@@ -260,7 +260,8 @@ Depends: ${misc:Depends},
  deepin-kwin-wayland,
  dde-session,
  dde-permission-manager,
- dde-application-manager
+ dde-application-manager,
+ dde-api-proxy
 Recommends:
  cups,
  ttf-deepin-opensymbol
