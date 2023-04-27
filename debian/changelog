@@ -4,11 +4,12 @@ deepin-desktop-environment (2023.04.27) unstable; urgency=medium
 
  -- LiChengGang <lichenggang@uniontech.com>  Thu, 27 Apr 2023 15:11:32 +0800
 
-deepin-desktop-environment (2023.04.18) unstable; urgency=medium
+deepin-desktop-environment (2023.04.20) unstable; urgency=medium
 
-  * add libopengl0
+  * add dde-api-proxy for deepin v23 beta release
 
- -- LiChengGang <lichenggang@uniontech.com>  Tue, 18 Apr 2023 10:13:22 +0800
+ -- Wang Zichong <wangzichong@deepin.org>  Thu, 20 Apr 2023 13:16:00 +0800
+>>>>>>> upstream/master
 
 deepin-desktop-environment (2023.03.31) unstable; urgency=medium
 
