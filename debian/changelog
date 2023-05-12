@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.05.12) unstable; urgency=medium
+
+  * update depends
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 12 May 2023 11:49:43 +0800
+
 deepin-desktop-environment (2023.04.27) unstable; urgency=medium
 
   * remove deepin-clone.
