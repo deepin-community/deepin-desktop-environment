@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.05.15) unstable; urgency=medium
+
+  * remove depends dde-wayland.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 15 May 2023 14:37:21 +0800
+
 deepin-desktop-environment (2023.05.12) unstable; urgency=medium
 
   * update depends
