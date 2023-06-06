@@ -372,7 +372,8 @@ Depends: ${misc:Depends},
  dde-file-manager-preview-plugins,
  deepin-home,
  dde-device-formatter,
- libblockdev-crypto2
+ libblockdev-crypto2,
+ libime-bin
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  . 
