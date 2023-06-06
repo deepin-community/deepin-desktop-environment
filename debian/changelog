@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.06.06) unstable; urgency=medium
+
+  * add libime
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 06 Jun 2023 10:23:36 +0800
+
 deepin-desktop-environment (2023.05.15) unstable; urgency=medium
 
   * remove depends dde-wayland.
