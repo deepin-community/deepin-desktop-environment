@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.07.13) unstable; urgency=medium
+
+  * add pipewire-pulse as alternative of pulseaudio
+
+ -- Chang Yang <yangchang@deepin.org>  Thu, 13 Jul 2023 13:33:15 +0800
+
 deepin-desktop-environment (2023.07.06) unstable; urgency=medium
 
   * chore: add dock-hotspot-plugin
