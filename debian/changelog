@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.08.14) unstable; urgency=medium
+
+  * also add wireplumber to dependencies when using pipewire-pulse
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 14 Aug 2023 17:17:39 +0800
+
 deepin-desktop-environment (2023.07.13) unstable; urgency=medium
 
   * add pipewire-pulse as alternative of pulseaudio
