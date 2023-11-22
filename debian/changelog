@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.11.22) unstable; urgency=medium
+
+  * remove dbus-x11 .
+
+ -- LiChengGang <lichenggang@uniontech.com>  Wed, 22 Nov 2023 09:58:57 +0800
+
 deepin-desktop-environment (2023.11.09) unstable; urgency=medium
 
   * add pipewire-pulse, libspa-0.2-bluetooth
