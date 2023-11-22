@@ -97,7 +97,6 @@ Depends: ${misc:Depends},
   alsa-utils,
   bluez,
   dbus-user-session,
-  dbus-x11,
   dialog,
   dmidecode,
   dnsutils,
@@ -223,6 +222,7 @@ Recommends:
   lzop,
   xorg,
   xserver-xorg-input-wacom
+Conflicts: dbus-x11
 Description: Deepin New Desktop Environment - Next
  This is a cli meta package depends Deepin New Desktop Envrionment.
  .

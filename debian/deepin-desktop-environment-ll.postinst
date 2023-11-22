@@ -72,14 +72,23 @@ url=https://store-llrepo.deepin.com/repos/repo
 gpg-verify=false
 EOF
 }
+rm_dbus-x11_config(){
 
+if [ -f /etc/X11/Xsession.d/75dbus_dbus-launch -a -f /etc/X11/Xsession.d/95dbus_update-activation-env ]
+then
+	rm /etc/X11/Xsession.d/75dbus_dbus-launch /etc/X11/Xsession.d/95dbus_update-activation-env
+fi
+
+}
+
+
+rm_dbus-x11_config
 if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	update_ll_repo-dev
 	install_pkg ${LL_pkgList}
 	update_ll_repo
 	check_os_version
 	change_own_ll
-
 fi
 
 
