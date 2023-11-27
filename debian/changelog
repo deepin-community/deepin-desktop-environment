@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.11.27) UNRELEASED; urgency=medium
+
+  *
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 27 Nov 2023 17:35:05 +0800
+
 deepin-desktop-environment (2023.11.22) unstable; urgency=medium
 
   * remove dbus-x11 .
@@ -162,7 +168,7 @@ deepin-desktop-environment (1.0+38) unstable; urgency=medium
 
 deepin-desktop-environment (1.0+37) unstable; urgency=medium
 
- * release.
+  * release.
 
  -- caihouhui <caihouhui@uniontech.com>  Mon, 05 Dec 2022 19:34:24 +0800
 
