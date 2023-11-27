@@ -1,6 +1,6 @@
 deepin-desktop-environment (2023.11.27) UNRELEASED; urgency=medium
 
-  *
+  * Remove essential packages.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 27 Nov 2023 17:35:05 +0800
 
