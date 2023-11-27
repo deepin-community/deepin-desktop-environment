@@ -10,7 +10,7 @@ org.deepin.image.viewer
 org.deepin.movie
 org.deepin.reader
 org.deepin.screen-recorder
-#org.deepin.voice.note
+org.deepin.voice.note
 org.deepin.manual
 org.deepin.gomoku
 org.deepin.lianliankan
