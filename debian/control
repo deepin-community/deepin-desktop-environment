@@ -200,7 +200,6 @@ Recommends: aptitude,
             lzop,
             xorg,
             xserver-xorg-input-wacom,
-Conflicts: dbus-x11,
 Description: Deepin New Desktop Environment - Next
  This is a cli meta package depends Deepin New Desktop Envrionment.
  .
