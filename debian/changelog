@@ -2,6 +2,7 @@ deepin-desktop-environment (2023.11.28) unstable; urgency=medium
 
   * Remove essential packages.
   * Remove laptop-mode-tools.
+  * Remove non-direct dependencies.
   * Add tlp.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 28 Nov 2023 15:08:51 +0800
