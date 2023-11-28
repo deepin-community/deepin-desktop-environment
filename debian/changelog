@@ -1,9 +1,9 @@
-deepin-desktop-environment (2023.11.27) UNRELEASED; urgency=medium
+deepin-desktop-environment (2023.11.28) unstable; urgency=medium
 
   * Remove essential packages.
   * Remove laptop-mode-tools.
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 27 Nov 2023 17:35:05 +0800
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 28 Nov 2023 15:08:51 +0800
 
 deepin-desktop-environment (2023.11.22) unstable; urgency=medium
 
