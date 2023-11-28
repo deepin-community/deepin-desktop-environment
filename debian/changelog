@@ -5,6 +5,8 @@ deepin-desktop-environment (2023.11.28) unstable; urgency=medium
   * Remove non-direct dependencies.
   * Add tlp.
   * Move deepin-keyring-whitebox to -core.
+  * Remove apt-transport-https.
+  * Move unrar to -cli.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 28 Nov 2023 15:08:51 +0800
 
