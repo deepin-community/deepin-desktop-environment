@@ -1,3 +1,10 @@
+deepin-desktop-environment (2023.12.19) unstable; urgency=medium
+
+  [ Gary Wang ]
+  * Add dde-qt6integration to dde-core depends list.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 19 Dec 2023 13:54:37 +0800
+
 deepin-desktop-environment (2023.11.28) unstable; urgency=medium
 
   * Remove essential packages.
