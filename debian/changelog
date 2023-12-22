@@ -1,9 +1,16 @@
+deepin-desktop-environment (2023.12.22) unstable; urgency=medium
+
+  [ Gary Wang ]
+  * Add dde-launchpad as alternative of dde-launcher.
+
+ -- Wang Zichong <wangzichong@deepin.org>  Fri, 22 Dec 2023 11:56:00 +0800
+
 deepin-desktop-environment (2023.12.20) unstable; urgency=medium
 
   * add uos-ai.
 
  -- LiChengGang <lichenggang@uniontech.com>  Wed, 20 Dec 2023 17:58:06 +0800
-
+ 
 deepin-desktop-environment (2023.12.19) unstable; urgency=medium
 
   [ Gary Wang ]
