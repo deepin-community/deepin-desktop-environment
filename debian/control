@@ -201,6 +201,7 @@ Depends: ${misc:Depends},
          lightdm,
          plymouth-theme-deepin-logo,
          startdde,
+         deepin-osconfig,
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next

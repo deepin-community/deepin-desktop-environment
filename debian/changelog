@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.12.25) unstable; urgency=medium
+
+  * Add deepin-osconfig.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 25 Dec 2023 10:21:43 +0800
+
 deepin-desktop-environment (2023.12.22) unstable; urgency=medium
 
   [ Gary Wang ]
