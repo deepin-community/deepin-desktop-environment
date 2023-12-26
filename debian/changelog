@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.12.26) unstable; urgency=medium
+
+  * remove realtek-wifi-dkms 
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 26 Dec 2023 15:35:01 +0800
+
 deepin-desktop-environment (2023.12.25) unstable; urgency=medium
 
   * Add deepin-osconfig.
