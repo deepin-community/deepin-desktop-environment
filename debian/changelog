@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.12.27) unstable; urgency=medium
+
+  * Use dde-launchpad by default.
+
+ -- Wang Zichong <wangzichong@deepin.org>  Wed, 27 Dec 2023 11:04:00 +0800
+
 deepin-desktop-environment (2023.12.26) unstable; urgency=medium
 
   * remove realtek-wifi-dkms 
