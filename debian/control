@@ -281,6 +281,7 @@ Depends: ${misc:Depends},
          uimg-installer,
          uos-license-content,
          uos-ai [amd64],
+         dcc-insider-plugin,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .
