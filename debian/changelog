@@ -3,6 +3,12 @@ deepin-desktop-environment (2024.01.05) unstable; urgency=medium
   * fix: also add wireplumber as dependency of pipewire
 
  -- Chang Yang <yangchang@deepin.org>  Fri, 05 Jan 2024 13:46:36 +0800
+ 
+deepin-desktop-environment (2023.01.04) unstable; urgency=medium
+
+  * feat: add deepin-feedback to extras
+
+ -- myml <wurongjie@deepin.org>  Fri, 05 Jan 2024 10:15:55 +0800
 
 deepin-desktop-environment (2024.01.03) unstable; urgency=medium
 
