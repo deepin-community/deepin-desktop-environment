@@ -13,7 +13,7 @@ install_pkg(){
 
     for pkg in `cat $1 | grep -v "^#"`
     do
-        ll-cli --nodbus install ${pkg}
+        ll-cli --no-dbus install ${pkg}
     done
 }
 
