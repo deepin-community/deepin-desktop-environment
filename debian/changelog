@@ -1,3 +1,9 @@
+deepin-desktop-environment (2023.01.04) unstable; urgency=medium
+
+  * feat: add deepin-feedback to extras
+
+ -- myml <wurongjie@deepin.org>  Fri, 05 Jan 2024 10:15:55 +0800
+
 deepin-desktop-environment (2024.01.03) unstable; urgency=medium
 
   * add dcc-insider-plugin
