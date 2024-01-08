@@ -2,7 +2,6 @@
 set -x
 
 LL_pkgList=/etc/packages.linglong
-LINGLONG_ROOT="/var/lib/linglong"
 
 install_pkg(){
 	if [ ! -f $1 ]
@@ -17,78 +16,46 @@ install_pkg(){
     done
 }
 
-check_os_version(){
-	if [ -f /etc/os-release ]
-	then
-		VERSION=$(sed -ne '/^VERSION_ID=.*$/P' /etc/os-release | awk -F = '{print $2}' | sed -e 's/"//g' | awk -F . '{print $1}')
-        	if [ ${VERSION} -eq '20' ]
-        	then
-                	LINGLONG_ROOT="/data/linglong"
-        	elif [ ${VERSION} -eq '23' ]
-        	then
-                	LINGLONG_ROOT="/persistent/linglong"
-        	fi
-	fi
-}
 
-change_own_ll(){
-	chown deepin-linglong:users -R ${LINGLONG_ROOT}
-}
+
+
 
 update_ll_repo-dev(){
-cat > /persistent/linglong/config.json<< EOF
-{
-    "appDbUrl": "http://10.0.36.228:9002",
-    "repoName": "release-snipe"
-}
-EOF
+cat > /var/lib/linglong/config.yaml<< EOF
+# SPDX-FileCopyrightText: 2023 UnionTech Software Technology Co., Ltd.
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
 
-cat > /persistent/linglong/repo/config<< EOF
-[core]
-repo_version=1
-mode=bare-user-only
-min-free-space-size=600MB
-
-[remote "release-snipe"]
-url=http://10.0.36.228:9002/repos/release-snipe/
-gpg-verify=false
+version: 1
+defaultRepo: release-snipe
+repos:
+  release-snipe: http://10.0.36.228:9002
 EOF
 }
 
 update_ll_repo(){
-cat > /persistent/linglong/config.json<< EOF
-{
-    "appDbUrl": "https://store-llrepo.deepin.com"
-}
-EOF
-cat > /persistent/linglong/repo/config<< EOF
-[core]
-repo_version=1
-mode=bare-user-only
-min-free-space-size=600MB
+cat > /var/lib/linglong/config.yaml<< EOF
+# SPDX-FileCopyrightText: 2023 UnionTech Software Technology Co., Ltd.
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
 
-[remote "repo"]
-url=https://store-llrepo.deepin.com/repos/repo
-gpg-verify=false
+version: 1
+defaultRepo: repo
+repos:
+  repo: https://mirror-repo-linglong.deepin.com
 EOF
 }
-rm_dbus-x11_config(){
-
-if [ -f /etc/X11/Xsession.d/75dbus_dbus-launch -a -f /etc/X11/Xsession.d/95dbus_update-activation-env ]
-then
-	rm /etc/X11/Xsession.d/75dbus_dbus-launch /etc/X11/Xsession.d/95dbus_update-activation-env
-fi
-
-}
 
 
-rm_dbus-x11_config
+
 if [ "$1" = "configure" ] && [ "$2" = "" ]; then
-	update_ll_repo-dev
+	if [ -f /usr/libexec/linglong/create-linglong-dirs ]; then
+		/usr/libexec/linglong/create-linglong-dirs
+	fi
+	update_ll_repo-dev	
 	install_pkg ${LL_pkgList}
 	update_ll_repo
-	check_os_version
-	change_own_ll
+
 fi
 
 
