@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.01.08) unstable; urgency=medium
+
+  * update deepin-desktop-environment-ll.postinst.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 08 Jan 2024 10:17:30 +0800
+
 deepin-desktop-environment (2024.01.05) unstable; urgency=medium
 
   * fix: also add wireplumber as dependency of pipewire
