@@ -1,3 +1,10 @@
+deepin-desktop-environment (2024.01.09) unstable; urgency=medium
+
+  * update ll.postinst 
+  * add fcitx5-frontend-qt6 (https://github.com/linuxdeepin/developer-center/issues/6791)
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 09 Jan 2024 10:13:26 +0800
+
 deepin-desktop-environment (2024.01.08) unstable; urgency=medium
 
   * update deepin-desktop-environment-ll.postinst.
