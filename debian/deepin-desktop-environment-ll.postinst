@@ -54,7 +54,10 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	fi
 	update_ll_repo-dev	
 	install_pkg ${LL_pkgList}
-	update_ll_repo
+	if [ -f /var/lib/linglong/config.yaml ]; then
+		rm /var/lib/linglong/config.yaml
+	fi
+	#update_ll_repo
 
 fi
 
