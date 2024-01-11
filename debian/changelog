@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.01.11) unstable; urgency=medium
+
+  * remove some packages from riscv64
+
+ -- Chang Yang <yangchang@deepin.org>  Thu, 11 Jan 2024 11:16:20 +0800
+
 deepin-desktop-environment (2024.01.09) unstable; urgency=medium
 
   * update ll.postinst 
