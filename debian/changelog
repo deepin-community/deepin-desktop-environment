@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.01.22) unstable; urgency=medium
+
+  * update linglong repos.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 22 Jan 2024 17:06:20 +0800
+
 deepin-desktop-environment (2024.01.11) unstable; urgency=medium
 
   * remove some packages from riscv64
