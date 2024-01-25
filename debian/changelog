@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.01.25) unstable; urgency=medium
+
+  * d/control: Do not depend on uos-license-content.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 25 Jan 2024 15:36:13 +0800
+
 deepin-desktop-environment (2024.01.22) unstable; urgency=medium
 
   * update linglong repos.
