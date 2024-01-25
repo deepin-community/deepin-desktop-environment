@@ -281,7 +281,6 @@ Depends: ${misc:Depends},
          simple-scan,
          systemd-timesyncd,
          uimg-installer [!riscv64 !loong64],
-         uos-license-content [!riscv64 !loong64],
          uos-ai [amd64],
          dcc-insider-plugin,
 	 fcitx5-frontend-qt6
