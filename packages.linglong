@@ -1,12 +1,12 @@
-org.deepin.music
+#org.deepin.music
 org.dde.calendar
 #org.dde.introduction
-org.deepin.album
+#org.deepin.album
 org.deepin.calculator
 org.deepin.compressor
 org.deepin.draw
 org.deepin.editor
-org.deepin.image.viewer
+#org.deepin.image.viewer
 org.deepin.movie
 org.deepin.reader
 org.deepin.screen-recorder
