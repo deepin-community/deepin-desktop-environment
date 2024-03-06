@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.03.06) unstable; urgency=medium
+
+  * fix: remove deepinid-client and deepin-voice-note for loong64
+
+ -- Chang Yang <yangchang@deepin.org>  Wed, 06 Mar 2024 15:06:47 +0800
+
 deepin-desktop-environment (2024.01.31) unstable; urgency=medium
 
   * add deepin-music deepin-image-viewer deepin-album
