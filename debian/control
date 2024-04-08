@@ -286,7 +286,8 @@ Depends: ${misc:Depends},
          systemd-timesyncd,
          uimg-installer [!riscv64 !loong64],
          uos-ai [amd64],
-	     fcitx5-frontend-qt6
+	     fcitx5-frontend-qt6,
+         mesa-vulkan-drivers
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .
