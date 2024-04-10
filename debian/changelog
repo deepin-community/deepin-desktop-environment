@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.04.09) unstable; urgency=medium
+
+  * replace dde-dock with dde-shell
+
+ -- tsic404 <liuheng@deepin.org>  Wed, 10 Apr 2024 10:37:53 +0800
+
 deepin-desktop-environment (2024.04.08) unstable; urgency=medium
 
   * add mesa-vulkan-drivers.
