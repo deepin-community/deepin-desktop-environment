@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.04.16) unstable; urgency=medium
+
+  * remove linglong pkg. 
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 16 Apr 2024 10:26:30 +0800
+
 deepin-desktop-environment (2024.04.09) unstable; urgency=medium
 
   * replace dde-dock with dde-shell
