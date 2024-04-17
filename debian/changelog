@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.04.17) unstable; urgency=medium
+
+  * fix: can't switch to dark mode
+
+ -- zsien <quezhiyong@deepin.org>  Wed, 17 Apr 2024 14:09:52 +0800
+
 deepin-desktop-environment (2024.04.16) unstable; urgency=medium
 
   * remove linglong pkg. 
