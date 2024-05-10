@@ -7,7 +7,7 @@ install_pkg(){
 	if [ ! -f $1 ]
 	then
 		echo "Error: $1 Not Found."
-		exit 0       
+		exit 0
 	fi
 
     for pkg in `cat $1 | grep -v "^#"`
@@ -27,9 +27,9 @@ cat > /var/lib/linglong/config.yaml<< EOF
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
 version: 1
-defaultRepo: release-snipe
+defaultRepo: old
 repos:
-  release-snipe: http://10.20.64.64:9002
+  old: https://repo-dev.cicd.getdeepin.org
 EOF
 }
 
@@ -40,9 +40,9 @@ cat > /var/lib/linglong/config.yaml<< EOF
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
 version: 1
-defaultRepo: repo
+defaultRepo: stable
 repos:
-  repo: https://mirror-repo-linglong.deepin.com
+  stable: https://mirror-repo-linglong.deepin.com
 EOF
 }
 
@@ -52,12 +52,12 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	if [ -f /usr/libexec/linglong/create-linglong-dirs ]; then
 		/usr/libexec/linglong/create-linglong-dirs
 	fi
-	update_ll_repo-dev	
+	update_ll_repo-dev
 	install_pkg ${LL_pkgList}
 	if [ -f /var/lib/linglong/config.yaml ]; then
 		rm /var/lib/linglong/config.yaml
 	fi
-	#update_ll_repo
+	update_ll_repo
 
 fi
 

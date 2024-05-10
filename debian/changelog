@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.09) unstable; urgency=medium
+
+  * feat: relace some debs to linglong
+
+ -- dengbo <dengbo@deepin.org>  Thu, 09 May 2024 17:26:43 +0800
+
 deepin-desktop-environment (2024.04.17) unstable; urgency=medium
 
   * fix: can't switch to dark mode
