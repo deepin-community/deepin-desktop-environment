@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.11) unstable; urgency=medium
+
+  * fix package list for loong64 and riscv64
+
+ -- Chang Yang <yangchang@deepin.org>  Sat, 11 May 2024 14:29:37 +0800
+
 deepin-desktop-environment (2024.05.09) unstable; urgency=medium
 
   * feat: relace some debs to linglong
