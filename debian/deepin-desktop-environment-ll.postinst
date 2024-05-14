@@ -29,7 +29,7 @@ cat > /var/lib/linglong/config.yaml<< EOF
 version: 1
 defaultRepo: old
 repos:
-  old: https://repo-dev.cicd.getdeepin.org
+  old: http://repo-dev.cicd.getdeepin.org
 EOF
 }
 

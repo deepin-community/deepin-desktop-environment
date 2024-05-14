@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.14) unstable; urgency=medium
+
+  * add deepin-music depends gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-fluendo-mp3 libvlc5.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 14 May 2024 13:12:35 +0800
+
 deepin-desktop-environment (2024.05.11) unstable; urgency=medium
 
   * fix package list for loong64 and riscv64
