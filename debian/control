@@ -79,7 +79,6 @@ Depends: ${misc:Depends},
          libc6-dev,
          libfile-mimeinfo-perl,
          libglib2.0-bin,
-         libimobiledevice-dev,
          libimobiledevice-utils,
          libmtp-runtime,
          libnss-myhostname,
@@ -302,7 +301,8 @@ Depends: ${misc:Depends},
          uimg-installer [!riscv64 !loong64],
          uos-ai [amd64],
          fcitx5-frontend-qt6,
-         mesa-vulkan-drivers
+         mesa-vulkan-drivers,
+         mesa-vdpau-drivers
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .

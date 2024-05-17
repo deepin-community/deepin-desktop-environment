@@ -1,3 +1,10 @@
+deepin-desktop-environment (2024.05.16) unstable; urgency=medium
+
+  * remove libimobiledevice-dev.
+  * add mesa-vdpau-drivers.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Thu, 16 May 2024 16:29:02 +0800
+
 deepin-desktop-environment (2024.05.14) unstable; urgency=medium
 
   * add deepin-music depends gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-fluendo-mp3 libvlc5.
