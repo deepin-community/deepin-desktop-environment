@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.21) unstable; urgency=medium
+
+  * add fonts-wqy-zenhei fonts-wqy-microhei
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 21 May 2024 10:48:57 +0800
+
 deepin-desktop-environment (2024.05.16) unstable; urgency=medium
 
   * remove libimobiledevice-dev.
