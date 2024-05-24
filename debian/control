@@ -304,6 +304,8 @@ Depends: ${misc:Depends},
          uimg-installer [!riscv64 !loong64],
          uos-ai [amd64],
          fcitx5-frontend-qt6,
+         fcitx5-pinyin-gui,
+         intel-media-va-driver-non-free,
          mesa-vulkan-drivers,
          mesa-vdpau-drivers
 Description: Deepin New Desktop Environment - Next

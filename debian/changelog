@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.23) unstable; urgency=medium
+
+  * add fcitx5-pinyin-gui intel-media-driver-non-free.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Thu, 23 May 2024 17:16:00 +0800
+
 deepin-desktop-environment (2024.05.21) unstable; urgency=medium
 
   * add fonts-wqy-zenhei fonts-wqy-microhei
