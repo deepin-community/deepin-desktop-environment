@@ -13,6 +13,10 @@ install_pkg(){
     for pkg in `cat $1 | grep -v "^#"`
     do
         ll-cli --no-dbus install ${pkg}
+		if [ $? -ne 0 ]; then
+			echo "Command failed. Exiting."
+			exit 1
+		fi
     done
 }
 
