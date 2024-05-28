@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.28) unstable; urgency=medium
+
+  * add intel-media-va-driver-non-free [amd64]
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 28 May 2024 10:55:19 +0800
+
 deepin-desktop-environment (2024.05.27) unstable; urgency=medium
 
   * update ll-cli filed exit.

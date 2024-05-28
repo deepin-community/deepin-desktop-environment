@@ -305,7 +305,7 @@ Depends: ${misc:Depends},
          uos-ai [amd64],
          fcitx5-frontend-qt6,
          fcitx5-pinyin-gui,
-         intel-media-va-driver-non-free,
+         intel-media-va-driver-non-free [amd64],
          mesa-vulkan-drivers,
          mesa-vdpau-drivers
 Description: Deepin New Desktop Environment - Next
