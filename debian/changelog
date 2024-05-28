@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.29) unstable; urgency=medium
+
+  * fix: linglong repo config.yaml permissions error
+
+ -- dengbo <dengbo<dengbo@deepin.org>>  Tue, 28 May 2024 17:38:01 +0800
+
 deepin-desktop-environment (2024.05.28) unstable; urgency=medium
 
   * add intel-media-va-driver-non-free [amd64]
