@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.05.31) unstable; urgency=medium
+
+  * add loong64 deepin-deepinid-client.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 31 May 2024 10:14:50 +0800
+
 deepin-desktop-environment (2024.05.29) unstable; urgency=medium
 
   * fix: linglong repo config.yaml permissions error
