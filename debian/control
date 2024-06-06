@@ -4,7 +4,7 @@ Priority: standard
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Build-Depends: debhelper (>= 8.0.0),
 Standards-Version: 3.9.3
-Homepage: http://www.linuxdeepin.com
+Homepage: https://github.com/deepin-community/deepin-desktop-environment
 
 Package: deepin-desktop-environment-base
 Architecture: any
@@ -286,6 +286,7 @@ Depends: ${misc:Depends},
          fonts-noto-unhinted,
          fonts-wqy-microhei,
          fonts-wqy-zenhei,
+         fonts-noto-color-emoji,
          xfonts-wqy,
          libcupsimage2,
          libimageeditor,
