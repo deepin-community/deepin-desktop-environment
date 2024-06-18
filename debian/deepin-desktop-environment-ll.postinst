@@ -50,6 +50,13 @@ repos:
 EOF
 }
 
+remove_confing(){
+
+	if [ -f /var/lib/linglong/config.yaml ]; then
+		rm /var/lib/linglong/config.yaml
+	fi
+
+}
 
 
 if [ "$1" = "configure" ] && [ "$2" = "" ]; then
@@ -58,14 +65,13 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	fi
 	update_ll_repo-dev
 	install_pkg ${LL_pkgList}
-	if [ -f /var/lib/linglong/config.yaml ]; then
-		rm /var/lib/linglong/config.yaml
-	fi
 	update_ll_repo
 
 fi
 
 
-
+if [ "$1" = "configure" ]; then
+   remove_confing
+fi
 
 
