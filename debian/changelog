@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.06.07) unstable; urgency=medium
+
+  * remove linglong config.yaml
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 07 Jun 2024 14:05:05 +0800
+
 deepin-desktop-environment (2024.06.06) unstable; urgency=medium
 
   * add fonts-noto-color-emoji.
