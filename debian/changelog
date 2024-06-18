@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.06.18) unstable; urgency=medium
+
+  * add deepin-unioncode.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 18 Jun 2024 17:53:37 +0800
+
 deepin-desktop-environment (2024.06.07) unstable; urgency=medium
 
   * remove linglong config.yaml
