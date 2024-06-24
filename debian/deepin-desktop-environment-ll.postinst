@@ -48,6 +48,9 @@ defaultRepo: stable
 repos:
   stable: https://mirror-repo-linglong.deepin.com
 EOF
+# ostree repo config should be updated too.
+sed -i 's/old/stable/g' /var/lib/linglong/repo/config
+sed -i '/url=*/c\url=https://mirror-repo-linglong.deepin.com/repos/stable' /var/lib/linglong/repo/config
 }
 
 remove_confing(){
