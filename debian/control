@@ -204,7 +204,6 @@ Depends: ${misc:Depends},
          plymouth-theme-deepin-logo,
          startdde,
          deepin-osconfig,
-         deepin-unioncode,
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next
