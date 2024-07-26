@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.07.26) unstable; urgency=medium
+
+  * add deepin-screen-recorder-plugin and deepin-network-displays depends
+
+ -- zyz <zhaoyingzhen@uniontech.com>  Fri, 26 Jul 2024 14:04:14 +0800
+
 deepin-desktop-environment (2024.07.10) unstable; urgency=medium
 
   * remove deepin-boot-maker.
