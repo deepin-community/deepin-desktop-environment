@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.08.06) unstable; urgency=medium
+
+  * remove dock-network-plugin.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 06 Aug 2024 17:52:16 +0800
+
 deepin-desktop-environment (2024.07.26) unstable; urgency=medium
 
   * add deepin-screen-recorder-plugin and deepin-network-displays depends
