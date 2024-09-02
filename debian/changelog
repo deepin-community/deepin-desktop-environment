@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.09.02) unstable; urgency=medium
+
+  * add iputils-ping.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Mon, 02 Sep 2024 14:35:57 +0800
+
 deepin-desktop-environment (2024.08.12) unstable; urgency=medium
 
   * add loongarch64 deepin-manual deepin-voice-note deepin-reader.
