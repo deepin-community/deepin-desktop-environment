@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.09.03) unstable; urgency=medium
+
+  * add  intel-microcode  amd64-microcode.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Tue, 03 Sep 2024 15:01:52 +0800
+
 deepin-desktop-environment (2024.09.02) unstable; urgency=medium
 
   * add iputils-ping.
