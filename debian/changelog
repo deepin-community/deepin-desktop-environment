@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.09.24) unstable; urgency=medium
+
+  * add dcc-insider-plugin.
+
+ -- caixiangrong <caixiangrong@uniontech.com>  Tue, 24 Sep 2024 10:19:06 +0800
+
 deepin-desktop-environment (2024.09.19) unstable; urgency=medium
 
   * add fcitx5-unikey.
