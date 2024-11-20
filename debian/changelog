@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.11.20) unstable; urgency=medium
+
+  * remove uimg-installer 
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 20 Nov 2024 14:18:28 +0800
+
 deepin-desktop-environment (2024.11.13) unstable; urgency=medium
 
   * update packages.linglong
