@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.11.21) unstable; urgency=medium
+
+  * add fonts-adobe-source-han-cjk.
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 21 Nov 2024 17:28:39 +0800
+
 deepin-desktop-environment (2024.11.20) unstable; urgency=medium
 
   * remove uimg-installer 
