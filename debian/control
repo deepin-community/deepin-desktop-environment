@@ -308,6 +308,7 @@ Depends: ${misc:Depends},
          com.deepin.lianliankan,
          org.deepin.downloader,
          uos-ai [amd64],
+         deepin-manual,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .

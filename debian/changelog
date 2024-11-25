@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.11.25) unstable; urgency=medium
+
+  * update package linglong.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 25 Nov 2024 10:00:18 +0800
+
 deepin-desktop-environment (2024.11.21) unstable; urgency=medium
 
   * add fonts-adobe-source-han-cjk.
