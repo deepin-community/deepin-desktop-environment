@@ -1,1 +1,1 @@
-packages.linglong /etc/
+packages.linglong.${DEB_HOST_ARCH} /etc/

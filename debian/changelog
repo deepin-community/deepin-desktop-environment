@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.11.26) unstable; urgency=medium
+
+  * add packages.linglong.$arch
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 26 Nov 2024 15:47:45 +0800
+
 deepin-desktop-environment (2024.11.25) unstable; urgency=medium
 
   * update package linglong.

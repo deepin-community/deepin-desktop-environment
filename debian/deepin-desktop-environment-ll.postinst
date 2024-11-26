@@ -1,24 +1,33 @@
 #!/bin/bash
 set -x
 
-LL_pkgList=/etc/packages.linglong
+LL_pkgList_amd64=/etc/packages.linglong.amd64
+LL_pkgList_arm64=/etc/packages.linglong.arm64
+LL_pkgList_riscv64=/etc/packages.linglong.riscv64
+LL_pkgList_loong64=/etc/packages.linglong.loong64
+
+# 获取系统架构
+arch=$(dpkg --print-architecture)
 
 install_pkg(){
-	if [ ! -f $1 ]
-	then
-		echo "Error: $1 Not Found."
-		exit 0
-	fi
 
-    for pkg in `cat $1 | grep -v "^#"`
-    do
-        ll-cli --no-dbus install ${pkg}
-		if [ $? -ne 0 ]; then
-			echo "Command failed. Exiting."
-			exit 1
-		fi
-    done
+if [ ! -f $1 ]
+then
+	echo "Error: $1 Not Found."
+	exit 0
+fi
+
+for pkg in `cat $1 | grep -v "^#"`
+do
+ll-cli --no-dbus install ${pkg}
+	if [ $? -ne 0 ]; then
+		echo "Command failed. Exiting."
+		exit 1
+	fi
+done
+
 }
+
 
 
 
@@ -64,7 +73,25 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 		/usr/libexec/linglong/create-linglong-dirs
 	fi
 	update_ll_repo-dev
-	install_pkg ${LL_pkgList}
+
+case "$arch" in
+    amd64)
+	install_pkg ${LL_pkgList_amd64}
+        ;;
+    arm64)
+	install_pkg ${LL_pkgList_arm64}
+        ;;
+	riscv64)
+	install_pkg ${LL_pkgList_riscv64}
+        ;;
+    loong64)
+	install_pkg ${LL_pkgList_loong64}
+        ;;
+    *)
+        echo "Unknown architecture: $arch"
+        ;;
+esac
+
 	update_ll_repo
 
 fi
