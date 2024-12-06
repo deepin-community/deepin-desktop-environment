@@ -52,6 +52,12 @@ deepin-desktop-environment (2024.11.05) unstable; urgency=medium
 
  -- lichenggang <lichenggang@deepin.org>  Tue, 05 Nov 2024 20:36:34 +0800
 
+deepin-desktop-environment (2024.12.05) unstable; urgency=medium
+
+  * add uos-ste-resourced.
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 05 Dec 2024 10:53:23 +0800
+
 deepin-desktop-environment (2024.09.19) unstable; urgency=medium
 
   * add fcitx5-unikey.

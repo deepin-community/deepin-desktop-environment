@@ -215,6 +215,18 @@ Depends: ${misc:Depends},
          plymouth-theme-deepin-logo,
          startdde,
          deepin-osconfig,
+         uos-ste-resourced,
+Recommends: cups,
+            ttf-deepin-opensymbol,
+Description: Deepin New Desktop Environment - Next
+ This is a dde package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: deepin-desktop-environment-extras
+Architecture: any
+Depends: ${misc:Depends},
+         cryptsetup-initramfs,
          cups,
          cups-bsd,
          cups-filters,
