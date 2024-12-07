@@ -266,7 +266,7 @@ Depends: ${misc:Depends},
          linglong-bin [amd64],
          linglong-box [amd64],
          linglong-installer [amd64],
-         uos-ste-resourced,
+         uos-ste-resourced [!riscv64],
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next
