@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.12.18) unstable; urgency=medium
+
+  * update depends.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 17 Dec 2024 19:43:21 +0800
+
 deepin-desktop-environment (2024.12.17) unstable; urgency=medium
 
   * update depends.
