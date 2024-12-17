@@ -266,6 +266,10 @@ Depends: ${misc:Depends},
          linglong-box [amd64],
          linglong-installer [amd64],
          uos-ste-resourced [!riscv64],
+	 dde-wirelesscasting-plugin,
+	 deepin-service-plugin-network,
+	 xdg-desktop-portal-dde,
+         fonts-gb,
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next
@@ -306,7 +310,6 @@ Depends: ${misc:Depends},
          uos-ai [amd64],
          deepin-default-settings,
          deepin-manual,
-	 deepin-global-translation,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .

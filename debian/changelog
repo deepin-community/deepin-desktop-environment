@@ -1,3 +1,15 @@
+deepin-desktop-environment (2024.12.17) unstable; urgency=medium
+
+  * update depends.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 17 Dec 2024 09:59:04 +0800
+
+deepin-desktop-environment (2024.12.14) unstable; urgency=medium
+
+  * remove deepin-global-translation.
+
+ -- lichenggang <lichenggang@deepin.org>  Sun, 15 Dec 2024 14:29:03 +0800
+
 deepin-desktop-environment (2024.12.13) unstable; urgency=medium
 
   * add deepin-global-translation. 
