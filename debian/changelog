@@ -1,3 +1,9 @@
+deepin-desktop-environment (2024.12.24) unstable; urgency=medium
+
+  * remove postinst
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 24 Dec 2024 10:48:28 +0800
+
 deepin-desktop-environment (2024.12.18) unstable; urgency=medium
 
   * update depends.
