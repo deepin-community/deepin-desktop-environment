@@ -311,6 +311,7 @@ Depends: ${misc:Depends},
          uos-ai [amd64],
          deepin-default-settings,
          deepin-manual,
+         deepin-fcitx5configtool-plugin,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .
