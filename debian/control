@@ -271,6 +271,7 @@ Depends: ${misc:Depends},
 	 deepin-service-plugin-network,
 	 xdg-desktop-portal-dde,
          fonts-gb,
+         dcc-insider-plugin
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next

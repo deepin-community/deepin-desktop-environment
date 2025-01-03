@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.1.3) unstable; urgency=medium
+
+  * update depends.
+
+ -- zhangkun <zhangkun2@uniontech.com>  Fri, 3 Jan 2025 16:31:28 +0800
+
 deepin-desktop-environment (2024.12.25) unstable; urgency=medium
 
   * update depends.
