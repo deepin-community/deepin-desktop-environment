@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.02.12) unstable; urgency=medium
+
+  * add command-not-found remmina.
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 12 Feb 2025 11:16:56 +0800
+
 deepin-desktop-environment (2024.12.25) unstable; urgency=medium
 
   * update depends.

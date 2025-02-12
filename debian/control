@@ -160,6 +160,7 @@ Depends: ${misc:Depends},
          mesa-utils-bin,
          mesa-va-drivers,
          cryptsetup-initramfs,
+         command-not-found,
 Recommends: aptitude,
             hostapd,
             lz4,
@@ -312,6 +313,7 @@ Depends: ${misc:Depends},
          deepin-default-settings,
          deepin-manual,
          deepin-fcitx5configtool-plugin,
+         remmina,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .
