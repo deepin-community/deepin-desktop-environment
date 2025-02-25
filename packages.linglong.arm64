@@ -14,7 +14,7 @@ org.deepin.fontmanager
 #org.deepin.lianliankan
 #org.deepin.screen-recorder
 #org.deepin.voice.note
-#org.deepin.image.viewer
-#org.deepin.album
+org.deepin.image.viewer
+org.deepin.album
 #org.deepin.compressor
 #org.deepin.music

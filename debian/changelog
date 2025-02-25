@@ -1,3 +1,10 @@
+deepin-desktop-environment (2025.02.25) unstable; urgency=medium
+
+  * add depends,add linglong package
+  * remove dde-control-center-dock
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 25 Feb 2025 15:43:06 +0800
+
 deepin-desktop-environment (2025.02.12) unstable; urgency=medium
 
   * add command-not-found remmina.
