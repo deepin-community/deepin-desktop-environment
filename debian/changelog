@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.02.28) unstable; urgency=medium
+
+  * release 2025.02.28.
+
+ -- dengbo <dengbo@deepin.org>  Fri, 28 Feb 2025 11:26:14 +0800
+
 deepin-desktop-environment (2024.12.07) unstable; urgency=medium
 
   * update depends.
