@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.03.03) unstable; urgency=medium
+
+  * add linglong packages.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 03 Mar 2025 15:36:19 +0800
+
 deepin-desktop-environment (2025.02.25) unstable; urgency=medium
 
   * add depends,add linglong package
