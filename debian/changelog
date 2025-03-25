@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.03.25) unstable; urgency=medium
+
+  * add dde-kwin
+
+ -- rewine <luhongxu@deepin.org>  Tue, 25 Mar 2025 15:19:05 +0800
+
 deepin-desktop-environment (2025.03.15) unstable; urgency=medium
 
   * add postinst.
