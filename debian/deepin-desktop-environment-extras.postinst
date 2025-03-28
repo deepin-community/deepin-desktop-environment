@@ -97,10 +97,20 @@ generate_extral_locales() {
         localedef --no-archive -i zh_CN -c -f GBK -A /usr/share/locale/locale.alias zh_CN.GBK
     fi
 }
+set_repos() {
+    if [ -f /etc/os-version ]; then
+        if [ ! -f /etc/apt/sources.list.d/deepin-25.list ]; then
+            if ! grep -q "beige/25" "/etc/apt/sources.list"; then 
+                echo "deb https://community-packages.deepin.com/beige/ beige/25 main commercial community" > /etc/apt/sources.list.d/deepin-25.list
+            fi
+        fi
+    fi
+}
 case "$1" in
     configure)
     generate_locale
     generate_extral_locales
+    set_repos
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
     ;;
