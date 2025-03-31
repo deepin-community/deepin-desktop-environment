@@ -99,9 +99,9 @@ generate_extral_locales() {
 }
 set_repos() {
     if [ -f /etc/os-version ]; then
-        if [ ! -f /etc/apt/sources.list.d/deepin-25.list ]; then
-            if ! grep -q "beige/25" "/etc/apt/sources.list"; then 
-                echo "deb https://community-packages.deepin.com/beige/ beige/25 main commercial community" > /etc/apt/sources.list.d/deepin-25.list
+        if [ ! -f /etc/apt/sources.list.d/deepin-crimson.list ]; then
+            if ! grep -q "crimson" "/etc/apt/sources.list"; then 
+                echo "deb https://community-packages.deepin.com/beige/ crimson main commercial community" > /etc/apt/sources.list.d/deepin-crimson.list
             fi
         fi
     fi
@@ -110,7 +110,7 @@ case "$1" in
     configure)
     generate_locale
     generate_extral_locales
-    set_repos
+ #   set_repos
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
     ;;
