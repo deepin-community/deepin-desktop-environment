@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.01) unstable; urgency=medium
+
+  * remove kwayland5-data deepin-update-manager
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 01 Apr 2025 10:18:17 +0800
+
 deepin-desktop-environment (2025.03.31) unstable; urgency=medium
 
   * update postinst.
