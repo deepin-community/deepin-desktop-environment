@@ -101,7 +101,12 @@ set_repos() {
     if [ -f /etc/os-version ]; then
         if [ ! -f /etc/apt/sources.list.d/deepin-crimson.list ]; then
             if ! grep -q "crimson" "/etc/apt/sources.list"; then 
-                echo "deb https://community-packages.deepin.com/beige/ crimson main commercial community" > /etc/apt/sources.list.d/deepin-crimson.list
+                cat >/etc/apt/sources.list.d/deepin-crimson.sources <<EOF
+                Types: deb
+                URIs: https://community-packages.deepin.com/beige/ 
+                Suites: crimson
+                Components: main commercial community
+                EOF
             fi
         fi
     fi
