@@ -20,36 +20,6 @@ install_pkg(){
     done
 }
 
-
-
-
-
-update_ll_repo-dev(){
-cat > /usr/share/linglong/config.yaml<< EOF
-# SPDX-FileCopyrightText: 2023 UnionTech Software Technology Co., Ltd.
-#
-# SPDX-License-Identifier: LGPL-3.0-or-later
-
-version: 1
-defaultRepo: old
-repos:
-  old: http://repo-dev.cicd.getdeepin.org
-EOF
-}
-
-update_ll_repo(){
-cat > /usr/share/linglong/config.yaml<< EOF
-# SPDX-FileCopyrightText: 2023 UnionTech Software Technology Co., Ltd.
-#
-# SPDX-License-Identifier: LGPL-3.0-or-later
-
-version: 1
-defaultRepo: stable
-repos:
-  stable: https://mirror-repo-linglong.deepin.com
-EOF
-}
-
 remove_confing(){
 
 	if [ -f /var/lib/linglong/config.yaml ]; then
@@ -63,15 +33,14 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
 	if [ -f /usr/libexec/linglong/create-linglong-dirs ]; then
 		/usr/libexec/linglong/create-linglong-dirs
 	fi
-	update_ll_repo-dev
+	ll-cli --no-dbus repo add stable  https://repo-dev.cicd.getdeepin.org --alias ci
+	ll-cli --no-dbus repo set-default ci
 	install_pkg ${LL_pkgList}
-	update_ll_repo
-
+	ll-cli --no-dbus repo set-default stable
+	ll-cli --no-dbus repo remove ci
 fi
 
 
 if [ "$1" = "configure" ]; then
    remove_confing
 fi
-
-
