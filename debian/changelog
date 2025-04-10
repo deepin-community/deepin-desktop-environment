@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.10) unstable; urgency=medium
+
+  * remove Qt5 depends
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 10 Apr 2025 13:36:05 +0800
+
 deepin-desktop-environment (2025.04.01) unstable; urgency=medium
 
   * remove kwayland5-data deepin-update-manager
