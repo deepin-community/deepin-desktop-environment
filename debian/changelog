@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.11) unstable; urgency=medium
+
+  * add set_repos.
+
+ -- lichenggang <lichenggang@deepin.org>  Fri, 11 Apr 2025 11:35:17 +0800
+
 deepin-desktop-environment (2025.04.10) unstable; urgency=medium
 
   * remove Qt5 depends
