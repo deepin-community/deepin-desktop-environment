@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.17) unstable; urgency=medium
+
+  * add dde-appearance.
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 17 Apr 2025 11:10:38 +0800
+
 deepin-desktop-environment (2025.04.11) unstable; urgency=medium
 
   * add set_repos.
