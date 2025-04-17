@@ -265,6 +265,8 @@ Depends: ${misc:Depends},
          xdg-desktop-portal-dde,
          fonts-gb,
          dde-services,
+         dock-network-plugin,
+         deepin-update-ui,
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next
