@@ -106,6 +106,7 @@ Types: deb
 URIs: https://community-packages.deepin.com/beige/ 
 Suites: crimson
 Components: main commercial community
+Signed-By: /usr/share/keyrings/deepin-archive-camel-keyring.gpg
 EOF
             fi
         fi

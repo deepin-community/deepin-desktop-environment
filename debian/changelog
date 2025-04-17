@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.18) unstable; urgency=medium
+
+  * add riscv64 app
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 17 Apr 2025 13:55:17 +0800
+
 deepin-desktop-environment (2025.04.17) unstable; urgency=medium
 
   * add dde-appearance.
