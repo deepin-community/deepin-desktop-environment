@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.23) unstable; urgency=medium
+
+  * add arm64 loong64 uos-ai.
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 23 Apr 2025 09:33:08 +0800
+
 deepin-desktop-environment (2025.04.22) unstable; urgency=medium
 
   * update deepin-crimson.list.
