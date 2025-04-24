@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.04.24) unstable; urgency=medium
+
+  * add deepin-anything arm64 
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 24 Apr 2025 13:38:18 +0800
+
 deepin-desktop-environment (2025.04.23) unstable; urgency=medium
 
   * add arm64 loong64 uos-ai.
