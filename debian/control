@@ -267,6 +267,8 @@ Depends: ${misc:Depends},
          dde-services,
          dock-network-plugin,
          deepin-update-ui,
+	     util-linux-extra,
+         mokutil,
 Recommends: cups,
             ttf-deepin-opensymbol,
 Description: Deepin New Desktop Environment - Next
