@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.03) unstable; urgency=medium
+
+  *  remove remmina.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 03 Jun 2025 14:47:57 +0800
+
 deepin-desktop-environment (2025.05.29) unstable; urgency=medium
 
   * add cn.org.linyaps.preloader util-linux-extra mokutil.
