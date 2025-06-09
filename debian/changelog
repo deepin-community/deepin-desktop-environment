@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.09) unstable; urgency=medium
+
+  * add fcitx5 wubi.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 09 Jun 2025 10:14:54 +0800
+
 deepin-desktop-environment (2025.06.03) unstable; urgency=medium
 
   *  remove remmina.
