@@ -12,7 +12,7 @@ org.deepin.fontmanager
 org.deepin.image.viewer
 org.deepin.music
 org.deepin.album
-#org.deepin.manual
+org.deepin.manual
 org.deepin.voice.note
 #org.deepin.compressor
 #org.deepin.gomoku

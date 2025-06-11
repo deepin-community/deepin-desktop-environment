@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.11) unstable; urgency=medium
+
+  * deepin-manual deb to linglong.
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 11 Jun 2025 14:12:24 +0800
+
 deepin-desktop-environment (2025.06.09) unstable; urgency=medium
 
   * add fcitx5 wubi.
