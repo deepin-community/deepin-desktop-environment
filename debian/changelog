@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.16) unstable; urgency=medium
+
+  * add bash-pinyin-completion. 
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 16 Jun 2025 15:24:39 +0800
+
 deepin-desktop-environment (2025.06.11) unstable; urgency=medium
 
   * deepin-manual deb to linglong.
