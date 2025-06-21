@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.21) unstable; urgency=medium
+
+  * add deepin-anyting-dkms.
+
+ -- lichenggang <lichenggang@deepin.org>  Sat, 21 Jun 2025 13:55:54 +0800
+
 deepin-desktop-environment (2025.06.16) unstable; urgency=medium
 
   * add bash-pinyin-completion. 
