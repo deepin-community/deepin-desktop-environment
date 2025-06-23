@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.23) unstable; urgency=medium
+
+  * linglong: dde-introduction  -> deb: dde-introduction
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 23 Jun 2025 17:03:37 +0800
+
 deepin-desktop-environment (2025.06.21) unstable; urgency=medium
 
   * add deepin-anyting-dkms.

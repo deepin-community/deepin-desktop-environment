@@ -1,5 +1,5 @@
 org.dde.calendar
-org.deepin.introduction
+#org.deepin.introduction
 org.deepin.calculator
 org.deepin.draw
 org.deepin.editor
