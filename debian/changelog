@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.30) unstable; urgency=medium
+
+  * remove deepin-screen-recorder-plugin.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 30 Jun 2025 13:13:57 +0800
+
 deepin-desktop-environment (2025.06.23) unstable; urgency=medium
 
   * linglong: dde-introduction  -> deb: dde-introduction
