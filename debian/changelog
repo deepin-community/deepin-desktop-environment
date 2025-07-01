@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.06.31) unstable; urgency=medium
+
+  * add Recommends tlp uos-ste-resourced.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 01 Jul 2025 17:10:21 +0800
+
 deepin-desktop-environment (2025.06.30) unstable; urgency=medium
 
   * remove deepin-screen-recorder-plugin.

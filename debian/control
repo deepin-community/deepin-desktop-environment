@@ -262,7 +262,6 @@ Depends: ${misc:Depends},
          linglong-bin,
          linglong-box,
          linglong-installer,
-         uos-ste-resourced [!riscv64],
          dde-wirelesscasting-plugin,
          deepin-service-plugin-network,
          deepin-recovery-plugin,
@@ -275,6 +274,7 @@ Depends: ${misc:Depends},
          mokutil,
 Recommends: cups,
             ttf-deepin-opensymbol,
+            uos-ste-resourced [!riscv64],
 Description: Deepin New Desktop Environment - Next
  This is a dde package depends Deepin New Desktop Envrionment.
  .
@@ -322,6 +322,8 @@ Depends: ${misc:Depends},
          deepin-album [riscv64],
          deepin-voice-note [riscv64],
          dde-introduction,
+Recommends: 
+         tlp,
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
  .
