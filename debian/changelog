@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.07.14) unstable; urgency=medium
+
+  * add deepin-debug-config.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 14 Jul 2025 16:12:52 +0800
+
 deepin-desktop-environment (2025.06.31) unstable; urgency=medium
 
   * add Recommends tlp uos-ste-resourced.
