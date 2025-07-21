@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.07.21) unstable; urgency=medium
+
+  * remove deepin-dvsrv.
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 21 Jul 2025 13:50:11 +0800
+
 deepin-desktop-environment (2025.07.14) unstable; urgency=medium
 
   * add deepin-debug-config.
