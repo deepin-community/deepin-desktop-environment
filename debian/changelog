@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.07.29) unstable; urgency=medium
+
+  * add usec-boot-crypt.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 29 Jul 2025 17:56:00 +0800
+
 deepin-desktop-environment (2025.07.21) unstable; urgency=medium
 
   * remove deepin-dvsrv.
