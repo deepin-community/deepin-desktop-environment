@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.08.11) unstable; urgency=medium
+
+  * add remove org.deepin.browser
+
+ -- lichenggang <lichenggang@deepin.org>  Mon, 11 Aug 2025 16:34:58 +0800
+
 deepin-desktop-environment (2025.07.29) unstable; urgency=medium
 
   * add usec-boot-crypt.

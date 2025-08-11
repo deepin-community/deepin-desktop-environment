@@ -5,7 +5,7 @@ org.deepin.draw
 org.deepin.editor
 org.deepin.movie
 org.deepin.reader
-org.deepin.browser
+#org.deepin.browser
 org.deepin.mail
 org.deepin.camera
 org.deepin.fontmanager
