@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.08.27) UNRELEASED; urgency=medium
+
+  * Add linux-sysctl-defaults.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 27 Aug 2025 16:54:19 +0800
+
 deepin-desktop-environment (2025.07.29) unstable; urgency=medium
 
   * add usec-boot-crypt.
