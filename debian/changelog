@@ -1,9 +1,9 @@
-deepin-desktop-environment (2025.08.27) UNRELEASED; urgency=medium
+deepin-desktop-environment (2025.08.27) unstable; urgency=medium
 
   * Add linux-sysctl-defaults.
   * Run wrap-and-sort -batk.
 
- -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 27 Aug 2025 16:54:19 +0800
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 27 Aug 2025 18:08:47 +0800
 
 deepin-desktop-environment (2025.07.29) unstable; urgency=medium
 
