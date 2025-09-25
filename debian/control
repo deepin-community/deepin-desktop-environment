@@ -59,7 +59,7 @@ Depends: dpkg-dev,
          dnsutils,
          efibootmgr,
          exfat-fuse,
-         exfat-utils,
+         exfatprogs,
          file,
          foomatic-db-compressed-ppds,
          foomatic-db-engine,
@@ -169,6 +169,7 @@ Recommends: aptitude,
             lzop,
             xorg,
             xserver-xorg-input-wacom,
+Conflicts: exfat-utils
 Description: Deepin New Desktop Environment - Next
  This is a cli meta package depends Deepin New Desktop Envrionment.
  .

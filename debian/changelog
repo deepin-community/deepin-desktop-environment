@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.09.25) unstable; urgency=medium
+
+  *  remove exfat-utils, add exfatprogs.
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 25 Sep 2025 15:17:28 +0800
+
 deepin-desktop-environment (2025.09.03) unstable; urgency=medium
 
   * add xdg-desktop-portal.
