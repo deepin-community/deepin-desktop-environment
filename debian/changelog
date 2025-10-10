@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.10.10) unstable; urgency=medium
+
+  * add denpends fcitx5-table-cangjie5  
+
+ -- lichenggang <lichenggang@deepin.org>  Fri, 10 Oct 2025 16:33:35 +0800
+
 deepin-desktop-environment (2025.09.25) unstable; urgency=medium
 
   *  remove exfat-utils, add exfatprogs.
