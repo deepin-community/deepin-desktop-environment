@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.10.23) unstable; urgency=medium
+
+  * add fonts-macau.
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 23 Oct 2025 13:25:31 +0800
+
 deepin-desktop-environment (2025.09.25) unstable; urgency=medium
 
   *  remove exfat-utils, add exfatprogs.
