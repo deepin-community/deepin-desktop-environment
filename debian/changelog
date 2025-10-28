@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.10.28) unstable; urgency=medium
+
+  * add gnome-keyring.
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 28 Oct 2025 15:31:54 +0800
+
 deepin-desktop-environment (2025.10.23) unstable; urgency=medium
 
   * add fonts-macau.
