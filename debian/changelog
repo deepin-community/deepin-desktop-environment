@@ -1,3 +1,9 @@
+deepin-desktop-environment (2025.12.10) unstable; urgency=medium
+
+  * remove dde-api-proxy. 
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 10 Dec 2025 15:44:40 +0800
+
 deepin-desktop-environment (2025.10.28) unstable; urgency=medium
 
   * add gnome-keyring.
