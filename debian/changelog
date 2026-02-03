@@ -1,3 +1,9 @@
+deepin-desktop-environment (2026.02.03) unstable; urgency=medium
+
+  * remove deepin-kwin-x11 deepin-kwin-wayland
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 03 Feb 2026 10:28:59 +0800
+
 deepin-desktop-environment (2026.01.15) unstable; urgency=medium
 
   * add ethtool.
