@@ -1,3 +1,9 @@
+deepin-desktop-environment (2026.04.14) unstable; urgency=medium
+
+  * Added support for the deepin-keyring-whitebox, libudfburn, riscv64, and loong64 architectures. 
+
+ -- lichenggang <lichenggang@deepin.org>  Tue, 14 Apr 2026 14:52:09 +0800
+
 deepin-desktop-environment (2026.04.01) unstable; urgency=medium
 
   * remove systemd-resolved, it causes VPN connection issues.
