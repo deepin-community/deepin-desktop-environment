@@ -1,3 +1,9 @@
+deepin-desktop-environment (2026.06.29) unstable; urgency=medium
+
+  * add libpipewire-0.3-common for pipewire translations.
+
+ -- qaqland <anguoli@uniontech.com>  Mon, 29 Jun 2026 09:43:18 +0800
+
 deepin-desktop-environment (2026.05.14) unstable; urgency=medium
 
   * add kimageformat6-plugins.
