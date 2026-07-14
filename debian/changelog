@@ -1,3 +1,10 @@
+deepin-desktop-environment (2026.07.14) unstable; urgency=medium
+
+  * remove arch restrictions from deepin-anything-dkms
+    deepin-anything-server, add ipp-usb runtime dependency.
+
+ -- qaqland <anguoli@uniontech.com>  Tue, 14 Jul 2026 09:43:18 +0800
+
 deepin-desktop-environment (2026.06.29) unstable; urgency=medium
 
   * add libpipewire-0.3-common for pipewire translations.
