@@ -1,3 +1,9 @@
+deepin-desktop-environment (2026.08.11) unstable; urgency=medium
+
+  * remove fonts-noto-cjk fonts-wqy-zenhei fonts-wqy-microhei.
+
+ -- lichenggang <lichenggang@uniontech.com>  Tue, 11 Aug 2026 21:10:58 +0800
+
 deepin-desktop-environment (2026.07.14) unstable; urgency=medium
 
   * remove arch restrictions from deepin-anything-dkms
